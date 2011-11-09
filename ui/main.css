@@ -1,0 +1,96 @@
+@font-face {
+    font-family: ScalaSans;
+    src: url("ScalaSansWeb.eot");
+}
+
+@font-face {
+    font-family: ScalaSans;
+    src: url("ScalaSansWeb.woff") format("woff");
+}
+
+html {
+    background-color: #252525;
+}
+
+body {
+    color: #ddd;
+    font-family: ScalaSans;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18pt;
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top {
+    background-image: -webkit-linear-gradient(black, #252525);
+}
+
+#current {
+    padding: 240px 0 0 0;
+    background-size: 100% auto;
+    background-position: auto center;
+}
+
+#current.logo {
+    background-image: url('tracker_logo.png');
+    background-repeat: no-repeat;
+    background-position: center 30px;
+    background-size: auto;
+}
+
+a {
+    color: white;
+}
+
+a.trackLink {
+    color: #aaa;
+    margin-left: .5em;
+    font-size: 90%;
+}
+
+p {
+    margin-bottom: none;
+    min-height: 65px;
+}
+
+
+.info {
+    padding: 30px;
+    background-color: black;
+    opacity: .7;
+}
+
+#recent {
+    padding: 30px;
+}
+
+.waveform {
+    border-color: #505050;
+    border-style: solid;
+    border-width: 0 0;
+    width: auto;
+    height: 90px;
+    overflow: hidden;
+}
+
+.waveform .point {
+    float: left;
+    width: 1px;
+    background-color: #ddd;
+    -webkit-transition-property: height, margin-top, width, margin-left;
+    -webkit-transition-duration: 1000ms;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.waveform .silence .point {
+    background-image: none;
+    background-color: red;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: inherit;
+    letter-spacing: 1px;
+}

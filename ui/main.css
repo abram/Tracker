@@ -10,6 +10,7 @@
 
 html {
     background-color: #252525;
+    overflow: hidden;
 }
 
 body {
@@ -60,6 +61,9 @@ p {
     padding: 30px;
     background-color: black;
     opacity: .7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #recent {

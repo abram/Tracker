@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A002C1146B287F0011AC52 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BC22F81469E47E00AE2877 /* AppKit.framework */; };
 		30BC22F61469E47E00AE2877 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BC22F51469E47E00AE2877 /* Cocoa.framework */; };
 		30BC23001469E47E00AE2877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30BC22FE1469E47E00AE2877 /* InfoPlist.strings */; };
 		30BC23021469E47E00AE2877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BC23011469E47E00AE2877 /* main.m */; };
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A002C1146B287F0011AC52 /* AppKit.framework in Frameworks */,
 				30BC232A1469E58C00AE2877 /* WebKit.framework in Frameworks */,
 				30BC22F61469E47E00AE2877 /* Cocoa.framework in Frameworks */,
 			);
